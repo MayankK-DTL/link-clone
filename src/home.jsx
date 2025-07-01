@@ -1,6 +1,6 @@
 import React from 'react';
 import './Home.css';
-
+import img from './assets/mayank_dtl.jpg'; // Adjust the path as necessary
 const Home = () => {
 return (
 <div className="home-container">
@@ -16,7 +16,7 @@ return (
     </div>
 </div>
 <div className="hero-right">
-<img src="./assets/mayank_dtl.jpg" alt="IMAGE" />
+<img src={img} alt="IMAGE" />
 </div>
 </main>
 <section className="home-footer">
