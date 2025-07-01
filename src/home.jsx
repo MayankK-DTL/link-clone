@@ -1,6 +1,6 @@
 import React from 'react';
 import './Home.css';
-import img from './assets/mayank_dtl.jpg'; // Adjust the path as necessary
+import img from '../public/mayank_dtl.jpg'; // Adjust the path as necessary
 const Home = () => {
 return (
 <div className="home-container">
